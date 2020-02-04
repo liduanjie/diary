@@ -1,0 +1,91 @@
+@import "./icono.min.css";
+
+.f-12{
+	font-size:12px;
+}
+.f-red{
+	color: red;
+}
+
+.f-green{
+	color: green;
+}
+
+.f-brow{
+	color:brown
+}
+
+.f-grey{
+	color:#999
+}
+.f-yellow{
+	color:yellow;
+}
+
+.mgb-6{
+	margin-bottom: 6px;
+}
+
+.mgb-12{
+	margin-bottom: 12px
+}
+
+
+body{
+
+}
+
+
+.checked::before {content: '';position: absolute;width: 1rem;height: 3rem;color: #00CC9A;border-bottom: 2px solid;border-right: 2px solid;top: 50%;transform-origin: center;  transform: translate(-50%, -30%) rotate(45deg); -webkit-transform: translate(-50%, -30%) rotate(45deg);}
+
+
+
+input{
+	border: 2px solid #333;
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius:0;
+}
+
+#dd{
+	background-color: green;
+}
+
+
+
+.b-mood{
+	background-color: #fff;
+	font-size:12px;
+	padding:6px;
+	border-radius:4px;
+	border:2px solid #eee;
+}
+
+
+.b-dailyprocess{
+  font-size:12px;
+  color:#333;
+  border-radius:6px;
+  background-color: pink;
+ padding: 6px;
+ list-style-type:none;
+	border-bottom: 2px solid #eee;
+}
+
+.cbtn-f{
+	color:red;
+	position:fixed;
+	right:30px;
+	bottom:100px;
+	min-width:10px;
+	min-height:10px;
+	background-color: #fff;
+}
+
+
+.test-btn{
+	 width:200px;
+	 height:200px;
+	 background-color: #333;
+	 display:none;
+}
